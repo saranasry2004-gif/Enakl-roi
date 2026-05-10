@@ -6,19 +6,23 @@ Application Streamlit B2B premium pour simuler les économies réalisées en ado
 
 ```
 
-├── app.py                    # Point d'entrée principal
+repo/
+│
+├── app.py
 ├── requirements.txt
-└── components/
-    ├── __init__.py
-    ├── header.py             # Header avec logo
-    ├── kpi_cards.py          # 4 KPI cards dashboard
-    ├── charts.py             # Graphiques Plotly (bar, pie, line)
-    ├── insights.py           # Insights automatiques
-    └── roi_section.py        # Bannière ROI orange
-   ├── utils/
+│
+├── components/
 │   ├── __init__.py
-│   ├── calculations.py       # Logique métier & calculs ROI
-│   └── styles.py             # CSS custom branding Enakl
+│   ├── header.py
+│   ├── kpi_cards.py
+│   ├── charts.py
+│   ├── insights.py
+│   └── roi_section.py
+│
+└── utils/
+    ├── __init__.py
+    ├── calculations.py
+    └── styles.py
 ```
 ## Installation locale
 
