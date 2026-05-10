@@ -5,13 +5,9 @@ Application Streamlit B2B premium pour simuler les économies réalisées en ado
 ## Structure du projet
 
 ```
-enakl_roi/
+
 ├── app.py                    # Point d'entrée principal
 ├── requirements.txt
-├── utils/
-│   ├── __init__.py
-│   ├── calculations.py       # Logique métier & calculs ROI
-│   └── styles.py             # CSS custom branding Enakl
 └── components/
     ├── __init__.py
     ├── header.py             # Header avec logo
@@ -19,8 +15,11 @@ enakl_roi/
     ├── charts.py             # Graphiques Plotly (bar, pie, line)
     ├── insights.py           # Insights automatiques
     └── roi_section.py        # Bannière ROI orange
+   ├── utils/
+│   ├── __init__.py
+│   ├── calculations.py       # Logique métier & calculs ROI
+│   └── styles.py             # CSS custom branding Enakl
 ```
-
 ## Installation locale
 
 ```bash
